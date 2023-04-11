@@ -1,0 +1,34 @@
+.help {
+    display: none;
+  }
+.help.active {
+    display: inherit;
+  }
+.help-content {
+  display:  flex;
+  justify-content: space-between;
+}
+.help-content h1 {
+  font-size: 3rem;
+}
+.help-content p {
+  font-size: 1.5rem;
+}
+.help-content img {
+  margin-top: 1rem;
+  border-radius: 50%;
+}
+.container {
+      margin: 0 auto;
+      max-width: 1280px;
+      width: 100%;
+      height: 100%;
+}
+.help-details {
+  cursor: pointer;
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+.help-details details {
+  margin-top: 1rem;
+}
